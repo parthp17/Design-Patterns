@@ -1,0 +1,5 @@
+Adapter Design Pattern is one of the structural design pattern that is used to work with two incompatible interfaces together. 
+The object joining two unrelated interface is called an adapter. 
+Adapter pattern converts the interface of a class to another interface(contract of usage) the client(user code) expects.
+
+
