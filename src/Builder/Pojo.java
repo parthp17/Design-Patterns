@@ -89,4 +89,10 @@ public class Pojo {
 			return new Pojo(this.a1,this.a2,this.a3,this.a4,this.a5, this.a6);
 		}
 	}
+	
+	public static void main(String[] args) {
+		
+		Pojo pojo = new Pojo.PojoBuilder().setA1("Parth").setA2("Rahil").build();
+		System.out.println(pojo.toString());
+	}
 }
