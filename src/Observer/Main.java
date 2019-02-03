@@ -11,8 +11,8 @@ public class Main {
 		room.add(client1);
 		room.add(client2);
 		
-		client1.sendMessage("Hi Client 2..");
-		client2.sendMessage("Hi Client 1!");
+		client1.sendMessage("Hi Display 2..");
+		client2.sendMessage("Hi Display 1!");
 		
 		client1.getChatRoom().remove(client1);
 		client2.sendMessage("wssup");
