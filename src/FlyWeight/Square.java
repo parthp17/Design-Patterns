@@ -56,30 +56,30 @@ class Main {
 
 			switch (icolor) {
 
-			case 0: {
+				case 0: {
 					sf.draw("white", side);
 					break;
-			}
-			case 1: {
-				sf.draw("red", side);
-				break;
-			}
-			case 2:{
-				sf.draw("green", side);
-				break;
-			}
-			case 3:{
-				sf.draw("blue", side);
-				break;
-			}
-			case 4:{
-				sf.draw("orange", side);
-				break;
-			}
-			default:{
-				sf.draw("black", side);
-				break;
-			}
+				}
+				case 1: {
+					sf.draw("red", side);
+					break;
+				}
+				case 2:{
+					sf.draw("green", side);
+					break;
+				}
+				case 3:{
+					sf.draw("blue", side);
+					break;
+				}
+				case 4:{
+					sf.draw("orange", side);
+					break;
+				}
+				default:{
+					sf.draw("black", side);
+					break;
+				}
 			
 			}
 

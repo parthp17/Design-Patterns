@@ -1,0 +1,5 @@
+Decorator design patterns allow us to add functionality to an object (not the class) at runtime, and we can apply this customized functionality to an individual object based on our requirement and choice.
+
+Decorator patterns allow a user to add new functionality to an existing object without altering its structure. So, there is no change to the original class.
+
+The decorator design pattern is a structural pattern, which provides a wrapper to the existing class.

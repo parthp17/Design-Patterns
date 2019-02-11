@@ -2,6 +2,8 @@ package Command;
 
 import java.util.Stack;
 
+
+//invoker
 public class RController {
 
 	private ICommand lightOffCommand;

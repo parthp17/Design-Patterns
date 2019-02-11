@@ -3,7 +3,7 @@ package Prototype;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Location {
+public class Location implements Cloneable{
 
 	String name;
 	List<Coordinate> coordinates;

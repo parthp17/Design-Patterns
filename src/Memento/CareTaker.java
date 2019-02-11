@@ -1,7 +1,5 @@
 package Memento;
 
-import javax.swing.text.Position;
-
 public class CareTaker {
 
 	Object obj;

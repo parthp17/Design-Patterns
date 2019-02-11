@@ -1,0 +1,4 @@
+Memento pattern is used to restore state of an object to a previous state.
+Caretaker - saves the memento to restore to previous state.
+Memento - the object that is going to maintain the state of originator. Its just a POJO
+originator : the object for which the state is to be saved. It creates the memento and uses it in future to undo.
